@@ -30,7 +30,9 @@ const App = () => {
           <Route index element={<Dashboard />} />
           <Route path="profile" element={<Profile />} />
           <Route path="settings" element={<Settings />} />
+          <Route path="*" element={<h1>Not found ana</h1>} />
         </Route>
+          <Route path="*" element={<h1>Not found</h1>} />
       </Routes>
     </Router>
     </div>
